@@ -24,6 +24,7 @@ You can reach us at the email `siqiang@comp.nus.edu.sg`
 <img src="images/joeytoh.png" width="200px">
 
 [[github](http://github.com/JoeyToh)]
+[[portfolio](team/JoeyToh.md)]
 
 * Role: Developer
 * Responsibilities: Documentation
