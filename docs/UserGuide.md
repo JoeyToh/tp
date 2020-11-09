@@ -608,6 +608,7 @@ Want to get rid of a particular tag? Use the `tagdelete` command follow by the i
 
 **Example Guide:**
 * `taglist` followed by the `tagdelete 1` deletes the first tag in the list.
+
 Step 1: Key in `taglist` and hit enter to display all the tags.
 ![TagDeleteCommand Step 1](images/TagDeleteCommandGuide1.png)
 
@@ -617,6 +618,7 @@ Step 2: Key in `tagdelete 1` and hit enter.
 <div style="page-break-after: always;"></div>
 
 * `tagfind cs2100` followed by `tagdelete 1` deletes the first tag in the results of `tagfind` command.
+
 Step 1: Key in `tagfind cs2100` and hit enter to display all the tags.
 ![TagDeleteCommand Step 1](images/TagDeleteCommandGuide3.png)
 
@@ -628,6 +630,7 @@ Step 2: Key in `tagdelete 1` and hit enter.
 <div style="page-break-after: always;"></div>
 
 * `tagsort` followed by `tagdelete 1` deletes first tag in the original tag list.
+
 Step 1: Key in `tagsort` and hit enter to display all the tags.
 ![TagDeleteCommand Step 1](images/TagDeleteCommandGuide5.png)
 
