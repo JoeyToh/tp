@@ -15,7 +15,6 @@ title: User Guide
         * [Links](#and-links)
         * [Index](#index) 
     * [Symbols](#symbols)
-    <div style="page-break-after: always;"></div> 
 * [Quick Start](#quick-start)
 * [Features](#features)
     * [General](#general-features)
@@ -39,6 +38,7 @@ title: User Guide
     * [Link](#link-features)
         * [Linkadd](#adding-a-link-under-a-tag-linkadd)
         * [Linkdelete](#deleting-the-link-under-the-tag-linkdelete)
+        <div style="page-break-after: always;"></div> 
     * [Task](#task-features)
         * [Taskadd](#adding-a-task-taskadd)
         * [Taskdone](#marking-a-task-under-a-tag-as-done-taskdone)
@@ -51,7 +51,6 @@ title: User Guide
     * [Link](#link-commands)
     * [Task](#task-commands)
 * [FAQ](#faq)
-
 <div style="page-break-after: always;"></div> 
 
 ## Introduction
