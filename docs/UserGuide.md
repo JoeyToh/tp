@@ -103,11 +103,10 @@ Before you go on, here are some key terms and symbols you should know!
 #### And Links?
 - There are so many links floating around now and it's tough to keep track of them all. But don't worry, we've got your back!
 - The link will be stored under a tag so it's easy to know what it's for. 
+<div style="page-break-after: always;"></div> 
 
 #### Index?
 - Index refers to the contact's or tag's position in its list. You will need this to use many of the commands! But fret not, it's really easy to identify the index of your desired contact or tag. Find out more about this later on in the User Guide!
-
-<div style="page-break-after: always;"></div> 
 
 ### Symbols
 
@@ -124,7 +123,6 @@ Before you go on, here are some key terms and symbols you should know!
 <br>
 
 Now you're prepared to embark on this journey and have Projact manage your contacts and projects.
-
 <div style="page-break-after: always;"></div> 
 
 ## Quick start
@@ -137,7 +135,7 @@ Now you're prepared to embark on this journey and have Projact manage your conta
 
 1. Double-click the file to start the app. The GUI similar to the below should appear in a few seconds. Note how the app contains some sample data.<br>
    ![Ui](images/Ui.png)
-
+    <div style="page-break-after: always;"></div> 
 1. Type the command in the command box and press Enter to execute it. e.g. typing **`help`** and pressing Enter will open the help window.<br>
    Some example commands you can try:
 
@@ -192,6 +190,7 @@ Hello! Do you need help using Projact? Enter the command `help` to access our us
 **Format**: `help`
 
 ![Help Command](images/helpMessage.png)
+<div style="page-break-after: always;"></div> 
 
 #### Clearing all entries : `clear`
 
@@ -367,23 +366,25 @@ Oops! Accidentally misentered your contact's details? Fret not! The `edit` comma
 
     Step 1: This is the original list after using `list` command.
     ![EditCommand Step 1](images/EditCommandGuide1.png)
+    <div style="page-break-after: always;"></div> 
     
     Step 2: Type in `edit 1 ta/berniceYu123` and hit enter. You should wee that her telegram handle has changed.
     ![EditCommand Step 2](images/EditCommandGuide2.png)
-
+    <div style="page-break-after: always;"></div> 
 * `find Irfan` followed by `edit 1 t/cs2100` edits the first contact in the results of the `find` command to have the `cs2100` tag.
    
    Step 1: This is the list after using the `find Irfan` command.
    ![EditCommand Step 1](images/EditCommandGuide3.png)
+   <div style="page-break-after: always;"></div> 
    
    Step 2: After entering `edit 1 t/cs2100`, Irfan now has the `cs2100` tag.
    ![EditCommand Step 2](images/EditCommandGuide4.png)
-   
+   <div style="page-break-after: always;"></div> 
 * `sort` followed by `edit 1 n/Bella Yu` edits the name of the first contact in the original contact list to `Bella Yu`
    
    Step 1: This is the list after using the `sort` command.
    ![EditCommand Step 1](images/EditCommandGuide5.png)
-   
+   <div style="page-break-after: always;"></div> 
    Step 2: After entering `edit 1 n/Bella Yu`, the name of the first contact Bernice, instead of Alex, is changed to Bella.
    ![EditCommand Step 2](images/EditCommandGuide6.png)   
 
