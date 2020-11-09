@@ -555,6 +555,7 @@ Made a mistake while adding tags? We got you! Here's a simple `tagedit` command 
 
 **Example Guide:**
 * `taglist` followed by the `tagedit 1 t/ma1521` edits the name of the first tag in the list to `ma1521`.
+
 Step 1: Key in `taglist` and hit enter to display all the tags.
 ![TagEditCommand Step 1](images/TagEditCommandGuide1.png)
 
@@ -564,6 +565,7 @@ Step 2: Key in `tagedit 1 t/ma1521` and hit enter.
 <div style="page-break-after: always;"></div>
 
 * `tagfind cs2101` followed by `tagedit 1 t/cs1231s` edits the name of the first tag in the results of `tagfind` command to `cs1231s`.
+
 Step 1: Key in `tagfind cs2101` and hit enter to display all the tags.
 ![TagEditCommand Step 1](images/TagEditCommandGuide3.png)
 
@@ -575,6 +577,7 @@ Step 2: Key in `tagedit 1 t/cs1231s` and hit enter.
 <div style="page-break-after: always;"></div>
 
 * `tagsort` followed by `tagedit 2 t/cs2101` edits the name of the second tag in the original tag list to `cs2101`.
+
 Step 1: Key in `tagsort` and hit enter to display all the tags.
 ![TagEditCommand Step 1](images/TagEditCommandGuide5.png)
 
