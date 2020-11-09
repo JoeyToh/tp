@@ -4,6 +4,8 @@ title: User Guide
 ---
 # Projact User Guide
 
+<div style="page-break-after: always;"></div> 
+
 ## Table of Contents
 * [Introduction](#introduction)
 * [About the User Guide](#about-this-user-guide)
@@ -50,7 +52,7 @@ title: User Guide
     * [Task](#task-commands)
 * [FAQ](#faq)
 
---------------------------------------------------------------------------------------------------------------------
+<div style="page-break-after: always;"></div> 
 
 ## Introduction
 Welcome to the *Projact User Guide*!
@@ -74,6 +76,8 @@ This user guide provides in-depth documentation on the features in Projact to fa
 A basic understanding of how the Command Line Interface works would be good. However, a lack of it would not affect your experience with Projact as prior technical experience is not required.
 
 Before you go on, here are some key terms and symbols you should know!
+
+<div style="page-break-after: always;"></div> 
 
 ### Key Terms
 
@@ -105,6 +109,8 @@ Before you go on, here are some key terms and symbols you should know!
 #### Index?
 - Index refers to the contact's or tag's position in its list. You will need this to use many of the commands! But fret not, it's really easy to identify the index of your desired contact or tag. Find out more about this later on in the User Guide!
 
+<div style="page-break-after: always;"></div> 
+
 ### Symbols
 
 <!--suppress HtmlUnknownAttribute -->
@@ -121,7 +127,7 @@ Before you go on, here are some key terms and symbols you should know!
 
 Now you're prepared to embark on this journey and have Projact manage your contacts and projects.
 
---------------------------------------------------------------------------------------------------------------------
+<div style="page-break-after: always;"></div> 
 
 ## Quick start
 
@@ -153,7 +159,7 @@ Now you're prepared to embark on this journey and have Projact manage your conta
 
 1. Refer to the [Features](#features) below for details of each command.
 
---------------------------------------------------------------------------------------------------------------------
+<div style="page-break-after: always;"></div> 
 
 ## Features
 
