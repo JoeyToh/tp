@@ -15,6 +15,7 @@ title: User Guide
         * [Links](#and-links)
         * [Index](#index) 
     * [Symbols](#symbols)
+    <div style="page-break-after: always;"></div> 
 * [Quick Start](#quick-start)
 * [Features](#features)
     * [General](#general-features)
