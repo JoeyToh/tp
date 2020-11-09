@@ -560,20 +560,24 @@ Step 1: Key in `taglist` and hit enter to display all the tags.
 
 Step 2: Key in `tagedit 1 t/ma1521` and hit enter.
 ![TagEditCommand Step 2](images/TagEditCommandGuide2.png)
+
 <div style="page-break-after: always;"></div>
 
 * `tagfind cs2101` followed by `tagedit 1 t/cs1231s` edits the name of the first tag in the results of `tagfind` command to `cs1231s`.
 Step 1: Key in `tagfind cs2101` and hit enter to display all the tags.
 ![TagEditCommand Step 1](images/TagEditCommandGuide3.png)
+
 <div style="page-break-after: always;"></div>
 
 Step 2: Key in `tagedit 1 t/cs1231s` and hit enter.
 ![TagEditCommand Step 2](images/TagEditCommandGuide4.png)
+
 <div style="page-break-after: always;"></div>
 
 * `tagsort` followed by `tagedit 2 t/cs2101` edits the name of the second tag in the original tag list to `cs2101`.
 Step 1: Key in `tagsort` and hit enter to display all the tags.
 ![TagEditCommand Step 1](images/TagEditCommandGuide5.png)
+
 <div style="page-break-after: always;"></div>
 
 Step 2: Key in `tagedit 2 t/cs2101` and hit enter.
@@ -606,20 +610,24 @@ Step 1: Key in `taglist` and hit enter to display all the tags.
 
 Step 2: Key in `tagdelete 1` and hit enter.
 ![TagDeleteCommand Step 2](images/TagDeleteCommandGuide2.png)
+
 <div style="page-break-after: always;"></div>
 
 * `tagfind cs2100` followed by `tagdelete 1` deletes the first tag in the results of `tagfind` command.
 Step 1: Key in `tagfind cs2100` and hit enter to display all the tags.
 ![TagDeleteCommand Step 1](images/TagDeleteCommandGuide3.png)
+
 <div style="page-break-after: always;"></div>
 
 Step 2: Key in `tagdelete 1` and hit enter.
 ![TagDeleteCommand Step 2](images/TagDeleteCommandGuide4.png)
+
 <div style="page-break-after: always;"></div>
 
 * `tagsort` followed by `tagdelete 1` deletes first tag in the original tag list.
 Step 1: Key in `tagsort` and hit enter to display all the tags.
 ![TagDeleteCommand Step 1](images/TagDeleteCommandGuide5.png)
+
 <div style="page-break-after: always;"></div>
 
 Step 2: Key in `tagdelete 1` and hit enter.
