@@ -415,7 +415,7 @@ Want to remove a contact? Simply use our `delete` command with the index `INDEX`
    
    Step 2: After entering `delete 2`, the contact Charlotte is deleted.
    ![DeleteCommand Step 2](images/DeleteCommandGuide2.png)
-   
+   <div style="page-break-after: always;"></div>
 * `find Irfan` followed by `delete 1` deletes the first contact in the results of the `find` command.
    
    Step 1: This is the list after using the `find Irfan` command.
@@ -423,7 +423,7 @@ Want to remove a contact? Simply use our `delete` command with the index `INDEX`
    
    Step 2: After entering `delete 1`, the contact Irfan is deleted.
    ![DeleteCommand Step 2](images/DeleteCommandGuide4.png)
-   
+   <div style="page-break-after: always;"></div>
 * `sort` followed by `delete 1` deletes the first contact in the original contact list.
    
    Step 1: This is the list after using the `sort` command.
@@ -454,6 +454,7 @@ Examples:
 
 Step 1: Start on the `taglist` view.
 ![TagAddCommand Step 1](images/TagAddCommandGuide1.png)
+<div style="page-break-after: always;"></div>
 
 Step 2: Enter the `tagadd` command and the new tag name `t/personal`. 
 ![TagAddCommand Step 2](images/TagAddCommandGuide2.png)
@@ -559,17 +560,19 @@ Step 1: Key in `taglist` and hit enter to display all the tags.
 
 Step 2: Key in `tagedit 1 t/ma1521` and hit enter.
 ![TagEditCommand Step 2](images/TagEditCommandGuide2.png)
-
+    <div style="page-break-after: always;"></div>
 * `tagfind cs2101` followed by `tagedit 1 t/cs1231s` edits the name of the first tag in the results of `tagfind` command to `cs1231s`.
 Step 1: Key in `tagfind cs2101` and hit enter to display all the tags.
 ![TagEditCommand Step 1](images/TagEditCommandGuide3.png)
+<div style="page-break-after: always;"></div>
 
 Step 2: Key in `tagedit 1 t/cs1231s` and hit enter.
 ![TagEditCommand Step 2](images/TagEditCommandGuide4.png)
-
+    <div style="page-break-after: always;"></div>
 * `tagsort` followed by `tagedit 2 t/cs2101` edits the name of the second tag in the original tag list to `cs2101`.
 Step 1: Key in `tagsort` and hit enter to display all the tags.
 ![TagEditCommand Step 1](images/TagEditCommandGuide5.png)
+<div style="page-break-after: always;"></div>
 
 Step 2: Key in `tagedit 2 t/cs2101` and hit enter.
 ![TagEditCommand Step 2](images/TagEditCommandGuide6.png)
@@ -601,17 +604,21 @@ Step 1: Key in `taglist` and hit enter to display all the tags.
 
 Step 2: Key in `tagdelete 1` and hit enter.
 ![TagDeleteCommand Step 2](images/TagDeleteCommandGuide2.png)
+<div style="page-break-after: always;"></div>
 
 * `tagfind cs2100` followed by `tagdelete 1` deletes the first tag in the results of `tagfind` command.
 Step 1: Key in `tagfind cs2100` and hit enter to display all the tags.
 ![TagDeleteCommand Step 1](images/TagDeleteCommandGuide3.png)
+<div style="page-break-after: always;"></div>
 
 Step 2: Key in `tagdelete 1` and hit enter.
 ![TagDeleteCommand Step 2](images/TagDeleteCommandGuide4.png)
+<div style="page-break-after: always;"></div>
 
 * `tagsort` followed by `tagdelete 1` deletes first tag in the original tag list.
 Step 1: Key in `tagsort` and hit enter to display all the tags.
 ![TagDeleteCommand Step 1](images/TagDeleteCommandGuide5.png)
+<div style="page-break-after: always;"></div>
 
 Step 2: Key in `tagdelete 1` and hit enter.
 ![TagDeleteCommand Step 2](images/TagDeleteCommandGuide6.png)
@@ -732,6 +739,7 @@ the alphabetical index `ALPHAINDEX` to do the magic!
 
 Example:
 * `taskdone 1 a` marks the task with the alphabetical index a from the first tag in the list as completed.
+<div style="page-break-after: always;"></div>
 
 **Step-By-Step Guide:**
 
@@ -740,6 +748,7 @@ Step 1: First key in `taglist` and hit enter to display all the tags.
 
 Step 2: For example, if you want to mark the second task under the tag "cs2101" as done. Key in "taskdone 2 a" and hit enter.
 ![TaskDoneCommand Step 2](images/TaskDoneCommandGuide2.png)
+<div style="page-break-after: always;"></div>
 
 Step 3: You should see the task "complete user guide" have a tick beside it.
 ![TaskDoneCommand Step 3](images/TaskDoneCommandGuide3.png)
@@ -756,6 +765,7 @@ Are the tasks added no longer needed? Or perhaps you've accidentally added the w
 
 Example:
 * `taskdelete 1 b` deletes the task with the alphabetical index b from the tag with the index 1 in the current tag list.
+<div style="page-break-after: always;"></div>
 
 **Step-By-Step Guide:**
 
@@ -778,6 +788,7 @@ Do you want the satisfaction of striking off all the tasks you've completed? Wel
 
 Example:
 * `taskclear 1` clears all completed tasks from the tag with the index 1 in the current tag list.
+<div style="page-break-after: always;"></div>
 
 **Step-By-Step Guide:**
 
