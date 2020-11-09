@@ -3,7 +3,6 @@ layout: page
 title: User Guide
 ---
 # Projact User Guide
-
 <div style="page-break-after: always;"></div> 
 
 ## Table of Contents
@@ -69,7 +68,6 @@ Projact stores:
 - A list of tags which you use to label your contacts. 
 
 --------------------------------------------------------------------------------------------------------------------
-
 ## About this User Guide
 This user guide provides in-depth documentation on the features in Projact to facilitate the effective organisation of your contacts. In addition, the quick start guide provides an end-to-end setup process to get you started. 
 
