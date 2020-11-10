@@ -4,8 +4,6 @@ title: User Guide
 ---
 # Projact User Guide
 
-<div style="page-break-after: always;"></div> 
-
 ## Table of Contents
 * [Introduction](#introduction)
 * [About the User Guide](#about-this-user-guide)
@@ -52,7 +50,7 @@ title: User Guide
     * [Task](#task-commands)
 * [FAQ](#faq)
 
-<div style="page-break-after: always;"></div> 
+--------------------------------------------------------------------------------------------------------------------
 
 ## Introduction
 Welcome to the *Projact User Guide*!
@@ -76,8 +74,6 @@ This user guide provides in-depth documentation on the features in Projact to fa
 A basic understanding of how the Command Line Interface works would be good. However, a lack of it would not affect your experience with Projact as prior technical experience is not required.
 
 Before you go on, here are some key terms and symbols you should know!
-
-<div style="page-break-after: always;"></div> 
 
 ### Key Terms
 
@@ -109,8 +105,6 @@ Before you go on, here are some key terms and symbols you should know!
 #### Index?
 - Index refers to the contact's or tag's position in its list. You will need this to use many of the commands! But fret not, it's really easy to identify the index of your desired contact or tag. Find out more about this later on in the User Guide!
 
-<div style="page-break-after: always;"></div> 
-
 ### Symbols
 
 <!--suppress HtmlUnknownAttribute -->
@@ -127,7 +121,7 @@ Before you go on, here are some key terms and symbols you should know!
 
 Now you're prepared to embark on this journey and have Projact manage your contacts and projects.
 
-<div style="page-break-after: always;"></div> 
+--------------------------------------------------------------------------------------------------------------------
 
 ## Quick start
 
@@ -159,7 +153,7 @@ Now you're prepared to embark on this journey and have Projact manage your conta
 
 1. Refer to the [Features](#features) below for details of each command.
 
-<div style="page-break-after: always;"></div> 
+--------------------------------------------------------------------------------------------------------------------
 
 ## Features
 
@@ -183,8 +177,6 @@ Now you're prepared to embark on this journey and have Projact manage your conta
 
 </div>
 
-<div style="page-break-after: always;"></div> 
-
 ### General Features
 
 #### Viewing help : `help`
@@ -203,8 +195,6 @@ Would you like to delete all the current contacts and tags in Projact? Just use 
 
 ![Clear Command](images/ClearCommandGuide2.png)
 
-<div style="page-break-after: always;"></div> 
-
 #### Exiting the program : `exit`
 
 The Projact application will close automatically with this command.
@@ -214,8 +204,6 @@ Format: `exit`
 #### Saving the data
 
 Projact's data is saved to your hard disk automatically if there are any changes so there is no need to save manually. Don't worry, the data you have entered in previously will be automatically loaded when you reopen Projact the next time.
-
-<div style="page-break-after: always;"></div> 
 
 ### Contact Features
 
@@ -245,8 +233,6 @@ Have you made a new friend? Great! Use the `add` command to add a new contact in
 
 </div>
 
-<div style="page-break-after: always;"></div> 
-
 **Step-By-Step Guide:** 
 
 Let's say you have a friend named `Betsy Crowe` that you want to add into your list of contacts.
@@ -260,7 +246,6 @@ Step 1: First, type the `add` command followed by `Betsy`'s details as in the fo
 Step 2: Hit enter and she will be added at the bottom of the list of contacts.
 ![AddCommandGuide2](images/AddCommandGuide2.png)
 
-<div style="page-break-after: always;"></div> 
 
 #### Locating contacts by name: `find`
 
@@ -287,16 +272,12 @@ Use our `find` command to look for that contact using words that his/her name co
 
 </div>
 
-<div style="page-break-after: always;"></div> 
-
 **Example Guide:**
 1. If you want to find `Alex Yeoh`, type `find Alex` or `find Yeoh`. The display result will be as shown.
 ![FindCommand 1](images/FindAlexResult.png)
 
 2. If you want to find both `Alex Yeoh` and `David Li`, type `find alex david`. The display result will be as shown.
 ![FindCommand 2](images/findAlexDavidResult.png)
-
-<div style="page-break-after: always;"></div> 
 
 #### Listing all contacts : `list`
 
@@ -305,8 +286,6 @@ Want to look at all the friends you have? Me too! Use `list` to view all the con
 **Format**: `list`
 
 ![List Command](images/ListCommandGuide1.png)
-
-<div style="page-break-after: always;"></div> 
   
 #### Sort contacts by name: `sort`
 
@@ -334,8 +313,6 @@ typing a single `sort` word on the command line.
  
 ![Sort Command](images/SortCommandGuide2.png)
 
-<div style="page-break-after: always;"></div> 
-
 #### Editing a contact : `edit`
 
 Oops! Accidentally misentered your contact's details? Fret not! The `edit` command allows you to edit a single field 
@@ -360,8 +337,6 @@ Oops! Accidentally misentered your contact's details? Fret not! The `edit` comma
 * You can remove all the contact’s tags by typing `t/` without specifying any tags after it.
 
 </div>
-
-<div style="page-break-after: always;"></div> 
 
 **Example Guide:** 
 
@@ -389,7 +364,6 @@ Oops! Accidentally misentered your contact's details? Fret not! The `edit` comma
    Step 2: After entering `edit 1 n/Bella Yu`, the name of the first contact Bernice, instead of Alex, is changed to Bella.
    ![EditCommand Step 2](images/EditCommandGuide6.png)   
 
-<div style="page-break-after: always;"></div> 
 
 #### Deleting a contact : `delete`
 
@@ -404,8 +378,6 @@ Want to remove a contact? Simply use our `delete` command with the index `INDEX`
 * Deleting the contact does not delete the respective tag(s). The name will be removed from the tag only!
 
 </div>
-
-<div style="page-break-after: always;"></div> 
 
 **Example Guide**:
 
@@ -433,8 +405,6 @@ Want to remove a contact? Simply use our `delete` command with the index `INDEX`
    Step 2: After entering `delete 1`, the contact David is deleted, not Alex Yeoh as the actual index of Alex is 3.
    ![DeleteCommand Step 2](images/DeleteCommandGuide6.png)   
 
-<div style="page-break-after: always;"></div> 
-
 ### Tag Features
 
 #### Adding a tag : `tagadd`
@@ -449,8 +419,6 @@ Format: `tagadd t/TAG`
 Examples:
 * `tagadd t/personal` creates a tag named personal without any contact being assigned to the tag.
 
-<div style="page-break-after: always;"></div> 
-
 **Step-By-Step Guide:**
 
 Step 1: Start on the `taglist` view.
@@ -461,8 +429,6 @@ Step 2: Enter the `tagadd` command and the new tag name `t/personal`.
 
 Step 3: Press enter, and the tag is now added after the last displayed tag `cs2106`. 
 ![TagAddCommand Step 3](images/TagAddCommandGuide3.png)
-
-<div style="page-break-after: always;"></div> 
 
 #### Locating tags by name: `tagfind`
 
@@ -488,8 +454,6 @@ Searching for a tag? Use the `tagfind` command to search for a tag that matches 
 
 </div>
 
-<div style="page-break-after: always;"></div> 
-
 **Step-By-Step Guide:**
 
 Step 1: If you want to find both `cs2100` and `cs2101`, type `tagfind cs2100 cs2101`.
@@ -498,8 +462,6 @@ Step 1: If you want to find both `cs2100` and `cs2101`, type `tagfind cs2100 cs2
 Step 2: Hit enter and the tags that match either of the keywords will be displayed.
 ![TagFindCommand Step2](images/TagFindCommandGuide2.png)
 
-<div style="page-break-after: always;"></div> 
-
 #### Listing all tags: `taglist`
 
 Want to see all the tags you have added? Display them with simply the `taglist` command.
@@ -507,8 +469,6 @@ Want to see all the tags you have added? Display them with simply the `taglist` 
 **Format:** `taglist`
  
 ![TagList Command](images/TagListCommandGuide2.png)
-
-<div style="page-break-after: always;"></div> 
 
 #### Sorting tags by tag name: `tagsort`
 
@@ -533,8 +493,6 @@ Sort the tags by their names in alphanumerical order by typing a single `tagsort
  
 ![TagSort Command](images/TagSortCommandGuide2.png)
 
-<div style="page-break-after: always;"></div> 
-
 #### Editing a tag : `tagedit`
 
 Made a mistake while adding tags? We got you! Here's a simple `tagedit` command to quickly fix your typos.
@@ -550,8 +508,6 @@ Made a mistake while adding tags? We got you! Here's a simple `tagedit` command 
 * If you have just used `tagsort`, follow the `Actual Index` as displayed to edit the particular tag you want.
 
 </div>
-
-<div style="page-break-after: always;"></div> 
 
 **Example Guide:**
 * `taglist` followed by the `tagedit 1 t/ma1521` edits the name of the first tag in the list to `ma1521`.
@@ -575,8 +531,6 @@ Step 1: Key in `tagsort` and hit enter to display all the tags.
 Step 2: Key in `tagedit 2 t/cs2101` and hit enter.
 ![TagEditCommand Step 2](images/TagEditCommandGuide6.png)
 
-<div style="page-break-after: always;"></div> 
-
 #### Deleting a tag: `tagdelete` 
 
 Want to get rid of a particular tag? Use the `tagdelete` command follow by the index `INDEX` of that tag from the tag list.
@@ -592,8 +546,6 @@ Want to get rid of a particular tag? Use the `tagdelete` command follow by the i
 </div>
 
 **Format:** `tagdelete INDEX`
-
-<div style="page-break-after: always;"></div> 
 
 **Example Guide:**
 * `taglist` followed by the `tagdelete 1` deletes the first tag in the list.
@@ -617,8 +569,6 @@ Step 1: Key in `tagsort` and hit enter to display all the tags.
 Step 2: Key in `tagdelete 1` and hit enter.
 ![TagDeleteCommand Step 2](images/TagDeleteCommandGuide6.png)
 
-<div style="page-break-after: always;"></div> 
-
 ### Link Features
 
 #### Adding a link under a tag: `linkadd`
@@ -640,8 +590,6 @@ You can click on the link to be redirected to your browser or application!
 Example:
 * `linkadd 1 l/http://nus-sg.com` edits the first tag in the list to have the link "http://nus-sg.com".
 
-<div style="page-break-after: always;"></div> 
-
 **Step-By-Step Guide:**
 
 Step 1: First key in `taglist` and hit enter to display all the tags.
@@ -652,8 +600,6 @@ Step 2: For example, if you want to add your Zoom tutorial meeting link to the "
 
 Step 3: You should see the link being added to the "ma1101r" tag like this. 
 ![LinkAddCommand Step 3](images/LinkAddCommandGuide3.png)
-
-<div style="page-break-after: always;"></div> 
 
 #### Deleting the link under the tag: `linkdelete`
 
@@ -670,8 +616,6 @@ Want to get rid of the link under a particular tag? Use the `linkdelete` command
 Example:
 * `linkdelete 1` deletes the link from the first tag in the list.
 
-<div style="page-break-after: always;"></div> 
-
 **Step-By-Step Guide:**
 
 Step 1: First key in `taglist` and hit enter to display all the tags. For example, if you want to remove the link from 
@@ -680,8 +624,6 @@ the "classmates" tag, key in `linkdelete 2` and hit enter.
 
 Step 2: You should see the link being removed from the "cs2100" tag like this.
 ![LinkDeleteCommand Step 2](images/LinkDeleteCommandGuide2.png)
-
-<div style="page-break-after: always;"></div> 
 
 ### Task Features
 
@@ -708,8 +650,6 @@ Is there a specific task you want to add to a tag? Simply use the `taskadd` comm
 Example:
 * `taskadd 2 task/peer review` adds a task to the tag with the index 2 in the current tag list.
 
-<div style="page-break-after: always;"></div> 
-
 **Step-By-Step Guide:**
 
 Step 1: Start on the `taglist` view.
@@ -720,8 +660,6 @@ Step 2: Enter the `taskadd` command, the index of the tag you want to add a task
 
 Step 3: Press enter, and the task is now added after the last displayed task `complete tutorial 05`. 
 ![TaskAddCommand Step 3](images/TaskAddCommandGuide3.png)
-
-<div style="page-break-after: always;"></div> 
 
 #### Marking a task under a tag as done: `taskdone`
 
@@ -745,8 +683,6 @@ Step 2: For example, if you want to mark the second task under the tag "cs2101" 
 Step 3: You should see the task "complete user guide" have a tick beside it.
 ![TaskDoneCommand Step 3](images/TaskDoneCommandGuide3.png)
 
-<div style="page-break-after: always;"></div> 
-
 #### Deleting a task: `taskdelete`
 
 Are the tasks added no longer needed? Or perhaps you've accidentally added the wrong task to the wrong tag? Worry not! Use the `taskdelete` command followed by the index of that tag, and the alphabetical index of the task!
@@ -769,8 +705,6 @@ Step 2: Enter the `taskdelete` command, the index of the tag you want to delete 
 Step 3: Press enter, and the task is now deleted. 
 ![TaskDeleteCommand Step 3](images/TaskDeleteCommandGuide3.png)
 
-<div style="page-break-after: always;"></div> 
-
 #### Clearing all completed tasks: `taskclear`
 
 Do you want the satisfaction of striking off all the tasks you've completed? Well, Projact can't do that but it sure can offer you a way to delete all of your completed tasks!
@@ -788,7 +722,7 @@ Step 1: For example, if you want to clear all the completed tasks from the tag "
 Step 2: Hit enter and you should see that all the completed tasks will be removed.
 ![TaskClearCommand Step 2](images/TaskClearCommandGuide2.png)
 
-<div style="page-break-after: always;"></div> 
+--------------------------------------------------------------------------------------------------------------------
 
 ## Command summary
 
@@ -811,8 +745,6 @@ Action | Format, Examples
 **Edit** | `edit INDEX [n/NAME] [p/PHONE_NUMBER] [e/EMAIL] [ta/TELEGRAM_ADDRESS] [t/TAG]…​`<br> e.g., `edit 2 n/James Lee e/jameslee@example.com`
 **Delete** | `delete INDEX`<br> e.g., `delete 3`
 
-<div style="page-break-after: always;"></div> 
-
 ### Tag commands
 
 Action | Format, Examples
@@ -831,8 +763,6 @@ Action | Format, Examples
 **Link Add** | `linkadd INDEX l/LINK` <br> e.g, `linkadd 2 l/https://skype.com/cs2103proj/`
 **Link Delete** | `linkdelete INDEX`<br> e.g., `linkdelete 1`
 
-<div style="page-break-after: always;"></div> 
-
 ### Task commands
 
 Action | Format, Examples
@@ -842,7 +772,7 @@ Action | Format, Examples
 **Task Done** | `taskdone INDEX ALPHAINDEX`<br> e.g., `taskdone 1 c`
 **Task Clear** | `taskclear INDEX` <br> e.g., `taskclear 1`
 
-<div style="page-break-after: always;"></div> 
+--------------------------------------------------------------------------------------------------------------------
 
 ## FAQ
 
